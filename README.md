@@ -9,7 +9,7 @@ The database contains a description of users and a list of the recommended artic
 
 
 
-# the flask API
+# The flask API
 The 'Flask application' folder contains the code of the flask API : 'app.py' developped in python 
 To run the API locally, use the following :
 ```
@@ -30,5 +30,13 @@ for unit testing the azure function for the userID=30, use the following :
 ```
 https://azure-func-11.azurewebsites.net/api/azure-func11?userId=30
 ```
+
+# CosmosDB Database
+
+The 'Notebook' folder contains the python code that creates and initiates the cosmosDB database.
+To test the cosmosDB database use the above azure function http link or use the code from the notebook
+(see paragraph "Test de lecture des recommandations") that reads the database records.
+ 
+
 
 
